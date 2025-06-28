@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jio Recharge - GamingZone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📱 Jio Recharge Portal</h1>
+    <p class="subheading">Recharge your Jio number securely</p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="form">
+      <input type="text" name="mobile" placeholder="Enter Jio Number" required />
+      
+      <select name="plan" required>
+        <option value="" disabled selected>Select Plan Amount</option>
+        <option value="₹239">₹239 – 28 Days, 1.5GB/day</option>
+        <option value="₹299">₹299 – 28 Days, 2GB/day</option>
+        <option value="₹666">₹666 – 84 Days, 1.5GB/day</option>
+        <option value="₹719">₹719 – 84 Days, 2GB/day</option>
+      </select>
+      
+      <input type="email" name="email" placeholder="Email (optional)" />
+      <input type="text" name="transaction" placeholder="Enter UPI Ref ID after payment" required />
+      
+      <button type="submit">Submit Recharge</button>
+    </form>
+
+    <p class="note">💸 Please pay to UPI ID: <strong>hakimiwashifali@fam</strong></p>
+    <p class="note">⚠️ Enter correct UPI Reference ID after payment</p>
+  </div>
+</body>
+</html>
